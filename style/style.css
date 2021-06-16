@@ -46,17 +46,15 @@ body {
 }
 
 .btn {
-  background-color: black;
+  background-color: darkmagenta;
   font-family: "Roboto", sans-serif;
   color: white;
-  border: none;
   font-size: medium;
 }
 
 .btn-2 {
-  background-color: black;
+  background-color:darkmagenta;
   font-family: "Roboto", sans-serif;
   color: white;
-  border: none;
   font-size: medium;
 }
