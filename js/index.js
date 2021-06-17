@@ -75,18 +75,25 @@ const scenes = [
     secondChoice: "To com fome vou beber alguma coisa",
   },
   {
-    img: "./img/interação 6",
+    img: "./img/interação 6.gif",
     description:
       " AAAAAAAAAAAAAAA não aguento mais chuva ! tenho que ir na locadora, vou de carro ou onibus ?! hummm , como de costume vou de carro",
-    firstChoice: "morreu em um car crash com um onibus",
-    secondChoice: "To com fome vou beber alguma coisa",
+    firstChoice: "Sair de primerinha",
+    secondChoice: "Sair cantando pneus",
   },
   {
     img: "./img/interação 6.1.gif",
     description:
-      "Hoje acordei bem Maria , não esta chovendo vou ir de onibus trabalhar  para mudar um pouco",
-    firstChoice: "morreu tropecando na saida do busao",
-    secondChoice: "To com fome vou beber alguma coisa",
+      "Hoje acordei bem Maria , não esta chovendo vou ir de ônibus trabalhar  para mudar um pouco",
+    firstChoice: "Ir surfando em cima do ônibus",
+    secondChoice: "Enfrentar o ônibus lotado na pandemia",
+  },
+  {
+    img: "./img/game over.gif",
+    description:
+      "Houve um acidente envolvendo um ônibus, e nosso heroi se foi...",
+    firstChoice: "Você",
+    secondChoice: "Se Fud%$# !!!",
   },
 ];
 
@@ -220,16 +227,22 @@ let EleventhStep = new Step(
   scenes[11].description,
   scenes[11].firstChoice,
   scenes[11].secondChoice,
-  () => {FirstStep.populate()},
-  () => {FirstStep.populate()}
+  () => {ThirteenthStep.populate()},
+  () => {ThirteenthStep.populate()}
 );
 let TwelfthStep = new Step(
   scenes[12].img,
   scenes[12].description,
   scenes[12].firstChoice,
   scenes[12].secondChoice,
-  () => {FirstStep.populate()},
-  () => {FirstStep.populate()}  
+  () => {ThirteenthStep.populate()},
+  () => {ThirteenthStep.populate()}  
 );
+let ThirteenthStep = new Step(
+    scenes[13].img,
+    scenes[13].description,
+    scenes[13].firstChoice,
+    scenes[13].secondChoice,  
+  );
 
 InitialStep.populate();

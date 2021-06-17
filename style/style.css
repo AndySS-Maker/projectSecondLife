@@ -50,6 +50,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: medium;
+  border-radius: 10px;
 }
 
 .btn-2 {
@@ -57,4 +58,5 @@ body {
   font-family: "Roboto", sans-serif;
   color: white;
   font-size: medium;
+  border-radius: 10px;
 }
