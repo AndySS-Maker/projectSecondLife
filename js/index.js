@@ -56,14 +56,14 @@ const scenes = [
   {
     img: "./img/interação 5.gif",
     description:
-      " Esse Jacksosvaldo é minha cara , potsss estou 17 milliseconds atrasado para o trabalho",
+      " Essas meninas são a sua cara Dollycleide, potsss estou 17 milliseconds atrasado para o trabalho",
     firstChoice: "Se apresar para o trabalho",
     secondChoice: "Ir tranquilão para a locadora",
   },
   {
     img: "./img/interação 5.1.gif",
     description:
-      "Nossa dollyneuza o 3XY22 é sua cara, logo vai completar 3 anos e vai poder trabalhar",
+      "Nossa Dollyneuza a 3XY22 minha cara, logo vai completar 3 anos e vai poder trabalhar",
     firstChoice: "Se apresar para o trabalhar",
     secondChoice: "Ir ao bar comer cachaça",
   },
@@ -92,8 +92,8 @@ const scenes = [
     img: "./img/game over.gif",
     description:
       "Houve um acidente envolvendo um ônibus, e nosso heroi se foi...",
-    firstChoice: "Você",
-    secondChoice: "Se Fud%$# !!!",
+    firstChoice: "Você Se Fud%$# !!!",
+    secondChoice: "Recomeçar",
   },
 ];
 
@@ -242,7 +242,9 @@ let ThirteenthStep = new Step(
     scenes[13].img,
     scenes[13].description,
     scenes[13].firstChoice,
-    scenes[13].secondChoice,  
+    scenes[13].secondChoice,
+  () => {InitialStep.populate()},
+  () => {InitialStep.populate()},
   );
 
 InitialStep.populate();
