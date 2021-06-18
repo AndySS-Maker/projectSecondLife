@@ -14,4 +14,4 @@ I am a begginer student on Ironhack starting just three weeks ago ,fighthing to 
 You can enjoy and have some fun on this <a href="https://andyss-maker.github.io/projectSecondLife/">link!</a>
 
 <h2>Find out more about this project</h2>
-You can find out more <a href="https://github.com/AndySS-Maker/projectSecondLife">here!</a>
+You can find out more <a href="https://docs.google.com/presentation/d/1-_paAh10NOrZ7gViTYCEgOxtx-t7eJ-IPcE_B0_RseA/edit#slide=id.g1f87997393_0_782">here!</a>
