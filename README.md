@@ -1,4 +1,4 @@
-Second Life
+<h1>Second Life</h1>
 
 About the Game
 
