@@ -9,13 +9,15 @@ body {
 }
 
 .content {
+  margin-top: 120px;
   width: 800px;
-  height: 700px;
+  height: auto;
 }
 
 #background {
   width: 800px;
   height: 600px;
+  margin-top: 60px;
   border: 3px solid;
   border-color: darkmagenta;
 }
